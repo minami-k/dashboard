@@ -1,0 +1,13 @@
+.date-display{
+    position: absolute;
+    bottom: 10%;
+    left: 0%;
+    text-align: center;
+    width: 100%;
+} 
+
+@media screen and (max-width: 1024px){
+    .date-display{
+        position: static;
+    }
+}

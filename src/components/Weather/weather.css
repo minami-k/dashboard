@@ -1,0 +1,23 @@
+.weather-title{
+    writing-mode: vertical-lr;
+}
+.weather-input{
+    margin: 0 1rem 0 auto;
+}
+@media screen and (max-width: 1024px){
+    .weather-title{
+        writing-mode: inherit;
+    }
+    .weather-input{
+        margin: 0 auto ;
+    }
+    h2.today-title{
+        margin-top: 3rem;
+    }
+}
+@media screen and (max-width: 480px){
+    h2.today-title{
+        text-align: center;
+    }
+
+}

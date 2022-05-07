@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    height: 100vh;
+}
+.box-middle{
+    position: relative;
+    height: 100vh;
+
+}
+.font1{
+    font-family: 'Cinzel', serif;
+
+}
+.font2{
+    font-family: 'Play', sans-serif;}
+@media screen and (max-width: 1024px){
+    .box-middle{
+        position: static;
+        height: auto;
+    }
+}
