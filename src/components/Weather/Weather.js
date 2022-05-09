@@ -9,7 +9,7 @@ const Weather = () => {
   const [query, setQuery] = useState("Vancouver");
   const [weather, setWeather] = useState({});
 
-  const url = `https://api.openweathermap.org/data/2.5/weather?q=${query}&units=metric&appid=${process.env.REACT_APP_WEATHER_API}`;
+  const url = `https://api.openweathermap.org/data/2.5/weather?q=${query}&units=metric&appid=59a9f0957678ab73eeea430242ff44de`;
 
   useEffect(() => {
     fetchHandler();
